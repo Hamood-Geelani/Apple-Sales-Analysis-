@@ -1,5 +1,8 @@
 # Apple-Sales-Analysis-
-Using all the available data from Apple sites, a dataset was procured upon which certain operations were performed to fetch insights about the business and sales trends. Potentially to help identify which branches are doing better than others. 
+Using all the available data from Apple sites, a dataset was procured upon which certain operations were performed to fetch insights about the business and sales trends. Potentially to help identify which branches are doing better than others. The main file - sales is compressed in a zip because it was too large to be uploaded. PostgreSQL was used for this project. 
+
+## Sheet1- what is it?
+Sheet1 has all the sql queries with explaining comments written alongside it. Prior to insights being fetched in the data, the computational times were improved/optimized using appropriate indices. For instance, time to fetch all sales with product_id = P-44 was brought down from 138ms to 7ms, which is a 95% decrease in latency!
 
 
 ## Database Schema
